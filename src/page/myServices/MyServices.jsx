@@ -1,4 +1,6 @@
 import React from 'react'
+import Service from '../MyServices/EachService/Service'
+
 
 function MyServices() {
   return (
@@ -6,10 +8,14 @@ function MyServices() {
 
         <h2 className='section__title section__title--services'> What I do</h2>
         <div className='services'>
-            <div className='service '>
-                <h3></h3>
-                <p></p>
-            </div>
+          <Service
+          serviceName="Design"
+          serviceDetail="I make"
+          />
+          <Service
+          serviceName="Design + Develpoment"
+          serviceDetail="I make"
+          />
         </div>
         <a href="#work" className='btn'>My Work</a>
     </section>
