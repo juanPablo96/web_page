@@ -1,5 +1,5 @@
 import React from 'react'
-import "./myService.css"
+import "./myServices.css"
 import Service from '../MyServices/EachService/Service'
 
 
