@@ -1,8 +1,8 @@
 import React from "react";
 
 import "./header.css"
-import Button from "../Button/Button";
 import Nav from "../Nav/Nav";
+import Hamburger from "../Hamburger/Hamburger";
 function Header() {
   return (
     <>
@@ -11,7 +11,7 @@ function Header() {
     </div>
     
 
-<Button/>
+<Hamburger/>
 <Nav/>
 
     </>

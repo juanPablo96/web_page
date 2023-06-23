@@ -1,4 +1,5 @@
 import React from 'react'
+import "./myService.css"
 import Service from '../MyServices/EachService/Service'
 
 
@@ -10,7 +11,7 @@ function MyServices() {
         <div className='services'>
           <Service
           serviceName="Design"
-          serviceDetail="I make"
+          serviceDetail="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum pariatur iure, reiciendis sapiente voluptatem, perferendis libero labore maiores animi, unde distinctio dicta alias sunt repellat repudiandae! Doloremque distinctio vel placeat."
           />
           <Service
           serviceName="Design + Develpoment"
