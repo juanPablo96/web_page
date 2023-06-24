@@ -1,13 +1,14 @@
 import React from "react";
 
-const Porfolio = (props) => {
+const Portfolio = (props) => {
   return (
-    <div className="portfolio">
+    
       <a href="#" className="portfolio__item">
-        <img src={props.img} alt="" className="porfolio__img" />
+        <img src={props.img} alt="" className="portfolio__img" />
       </a>
-    </div>
+    
   );
 };
 
-export default Porfolio;
+export default Portfolio;
+
