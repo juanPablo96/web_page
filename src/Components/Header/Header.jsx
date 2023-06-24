@@ -6,7 +6,7 @@ import Hamburger from "../Hamburger/Hamburger";
 import logo from "../../assets/logo.png";
 function Header() {
   return (
-    <>
+    
       <header>
         <div className="logo">
           <img src={logo} alt="" className="logo__img" />
@@ -14,7 +14,7 @@ function Header() {
         <Hamburger />
         <Nav />
       </header>
-    </>
+   
   );
 }
 
