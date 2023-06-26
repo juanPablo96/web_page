@@ -14,7 +14,7 @@ function Header() {
         </div>
         <div className={` nav-toggle ${nav? "nav-open": "nav-close"} `} > 
         <Hamburger nav={nav} setNav={setNav}  />
-        <Nav nav={nav}  setNav={setNav}   />
+        <Nav  nav={nav} setNav={setNav}    />
         </div>
       </header>
    
