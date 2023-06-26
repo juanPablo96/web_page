@@ -8,7 +8,7 @@
 .hamburger,
 .hamburger::before,
 .hamburger::after{
-    background: var(--clr-dark);
+    background: var(--clr-accent);
     width: 2em;
     height: 3px;
     border-radius: 1em;
@@ -34,3 +34,4 @@
 .hamburger::after{
     bottom: 6px;
 }
+
