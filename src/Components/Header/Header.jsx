@@ -5,7 +5,7 @@ import Nav from "../Nav/Nav";
 import Hamburger from "../Hamburger/Hamburger";
 import logo from "../../assets/logo.png";
 function Header() {
-  const[nav, setNav]=useState(true)
+  const[nav, setNav]=useState(false)
   
   return (
       <header>

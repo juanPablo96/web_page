@@ -1,7 +1,7 @@
 import React from "react";
 import "./myWork.css";
-import Portfolio from "../../Components/Portfolio/Portfolio";
 import jp from "../../assets/juanpablo.jpeg";
+import Projects from "../../Components/Projects/Projects";
 
 function MyWork() {
   return (
@@ -12,11 +12,12 @@ function MyWork() {
         A selection of my range of work
       </p>
       <div className="portfolio">
-      <Portfolio img={jp} />
-      <Portfolio img={jp} />
-      <Portfolio img={jp} />
-      <Portfolio img={jp} />
-      <Portfolio img={jp} />
+        <Projects img={jp} />
+        <Projects img={jp} />
+        <Projects img={jp} />
+        <Projects img={jp} />
+        <Projects img={jp} />
+      
      
       </div>
     </section>

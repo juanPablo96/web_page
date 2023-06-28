@@ -1,11 +1,13 @@
 import React from "react";
 import "./nav.css";
-function Nav(props) {
+import { Link } from "react-router-dom";
+function NavPortfolio(props) {
   const navToggle = () => {
     props.setNav(!props.nav);
   };
   return (
     <nav className="nav">
+      <Link to={"/"}>
       <ul className="nav__list">
         <li className="nav_item">
           <a href="#home" className="nav__link" onClick={navToggle}>
@@ -28,8 +30,9 @@ function Nav(props) {
           </a>
         </li>
       </ul>
+      </Link>
     </nav>
   );
 }
 
-export default Nav;
+export default NavPortfolio;
